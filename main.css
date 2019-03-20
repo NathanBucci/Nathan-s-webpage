@@ -1,0 +1,62 @@
+.header {
+    text-align: Center; /* center the text */
+    background: #ADFF2F; /*green-yellow background */
+    color: black;/* black text color */
+    
+}
+
+/*Increase the size of font size <h1> element */
+
+/*Style the top navigaton bar */
+.navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #DC143C /*
+
+}
+
+/* Style the navigation bar links */
+navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /*change the display to block, for resposive reasons (see below) */
+    color: black; /*black color text*/ 
+    text-align: center; /* center the text */
+    padding: 14x 20x; /* Add some padding */
+    text decoration: none; /*remove underline */
+
+}
+
+/*right-aligned link */ 
+.navbar a.right {
+    float: right; /* Float a link to the right*/
+
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+    background-color;#00FF7F; /*Royal Blue background color */
+    color: white; /*white text color*/
+    
+  /* Ensure proper sizing */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Column container */
+  .row { 
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 30%; /* Set the width of the sidebar */
+    background-color: #f1f1f1; /* Grey background color */
+    padding: 20px; /* Some padding */
+  }
+  
+  /* Main column */
+  .main { 
+    flex: 70%; /* Set the width of the main content */
+    background-color: white; /* White background color */
+    padding: 20px; /* Some padding */  
